@@ -1,0 +1,23 @@
+1. What is a support vector?
+Points closest to the decision boundary that help define the margin.
+
+2. What does the C parameter do?
+Controls trade-off between margin width and misclassification — low C = wider margin, high C = tighter fit.
+
+3. What are kernels in SVM?
+Functions that project data into higher dimensions (e.g., linear, RBF, polynomial) to find separability.
+
+4. Difference between linear and RBF kernel?
+Linear = straight boundary; RBF = non-linear curved boundary using Gaussian transformation.
+
+5. Advantages of SVM:
+High accuracy, works well on small, complex datasets, effective for both linear and non-linear data.
+
+6. Can SVM be used for regression?
+Yes, called Support Vector Regression (SVR).
+
+7. What if data isn’t linearly separable?
+Use kernel trick (like RBF) to transform data into a higher dimension.
+
+8. How is overfitting handled in SVM?
+By tuning C and gamma values, using cross-validation, and applying regularization.
